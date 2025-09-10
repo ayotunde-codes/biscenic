@@ -8,7 +8,7 @@ import { useEffect } from "react"
 import { Package, ShoppingCart, BarChart, LogOut } from "lucide-react"
 import { useAdminCheck, useLogout } from "@/services/auth/queries"
 import { tokenUtils } from "@/services/auth/api"
-// just to trigger redeployment
+// just to trigger redeployment.
 
 export default function AdminDashboardPage() {
   const router = useRouter()
